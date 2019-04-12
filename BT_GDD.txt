@@ -1,0 +1,21 @@
+#Battle Tank GDD
+
+# Head-to-head tank comabt game.
+# Terrain will be used for tactical advantage.
+# Focus on flow and feel.
+
+#Rules
+# Move anywhere in terrain
+# Starts with finite health and ammo
+# direct hits take away health
+# survival of the fittest
+
+#Req
+# SFX
+# Static mesh
+# Texture
+# Music
+
+#Iteration
+## World -> Tank -> Controls -> Second player -> UI -> World
+
