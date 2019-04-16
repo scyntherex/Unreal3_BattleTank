@@ -59,3 +59,28 @@
 + Check your project runs OK in new version
 + Close everything and re-commit
 + How to tag a commit in GitHub.
+
+### 8 Using Landscape Layers ###
+
++ Create a material for your landscape
++ Set Usage > Used with Landscape
++ LandscapeLayerBlend node & Vector Parameters
++ Add at at least two layers & create LayerInfo
++ Paint the landscape from the Modes tab
++ Screenshot and share with us
+
+### 9 Flat Shading Low Poly Landscapes ###
+
++ Unreal’s tools are setup for photoreal landscapes
++ Once you set the bar high, the rest must match
++ An alternative is to opt for a low-poly look...
++ ...then you can focus on gameplay, story, sound
++ Can be a good choice for smaller teams
++ How to make low-poly, flat-shaded landscapes.
+
+### 10 More Landscaping Tools ###
+
++ How to make flat shading optional
++ Importing and exporting landscape heightmaps
++ Reducing the resolution of a landscape
++ Using a texture in a landscape material.
