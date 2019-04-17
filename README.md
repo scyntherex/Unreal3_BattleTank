@@ -84,3 +84,16 @@
 + Importing and exporting landscape heightmaps
 + Reducing the resolution of a landscape
 + Using a texture in a landscape material.
+
+### 11 Tank Control System ###
+
++ Support keyboard, mouse & gamepad controller
++ Mapping player intentions to control inputs
++ Mapping control inputs to actor actuators
++ Introducing the concept of “fly by wire”.
+
+### 12 Actors from Multiple Meshes ###
+
++ Import the tank in 4 static mesh parts
++ Assemble the parts using sockets
++ Create our Tank_BP and test.
