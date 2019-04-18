@@ -106,3 +106,19 @@
 + Enable physics and assign a mass
 + Set the tank as the Default Pawn
 + Setup PlayerStart and debug start collisions.
+
+### 14 3rd Person Camera Control ###
+
++ Horizontal Coordinate System
++ Setup a Camera Spring Arm
++ Why the Spring Arm alone isn’t enough
++ How rotations don’t “commute”
++ Binding mouse and gamepad to camera control.
+
+### 15 Fixing 3rd Person Camera Rotation ###
+
++ Use a Scene Root as azimuth gimbal
++ Use the Spring Arm for elevation control
++ Adjust the Spring Arm length
++ Set the camera rotation to 0 (down the arm)
++ Decide if you want the camera to roll or not.
