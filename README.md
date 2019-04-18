@@ -97,3 +97,12 @@
 + Import the tank in 4 static mesh parts
 + Assemble the parts using sockets
 + Create our Tank_BP and test.
+
+### 13 Configuring a Tank ###
+
++ Add mass to the tank
++ Fine-tune track position
++ Replace root component in Tank_BP
++ Enable physics and assign a mass
++ Set the tank as the Default Pawn
++ Setup PlayerStart and debug start collisions.
