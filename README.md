@@ -129,3 +129,9 @@
 + Decide the Player Controller with create the UI
 + Create widget and add to viewport in Blueprint
 + Override the Player Controller in the game mode.
+
+### 17 Main Menu Screens ###
+
++ Create a dedicated Scene for the Main Menu
++ Use the Level Blueprint to configure UI
++ Add a background image to get started.
