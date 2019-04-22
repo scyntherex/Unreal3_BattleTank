@@ -143,3 +143,11 @@
 + Add a Start button
 + Customise fonts inside our UI Widget
 + Set anchors so UI scales to different aspect ratios.
+
+### 19 Controller Ready Navigation ###
+
++ Bind Start button event to Blueprint
++ Create custom WidgetReady event
++ Make Start menu button focused on play
++ Ensure we can quit from the game
++ Aim towards Steam “Full Controller Support”.
