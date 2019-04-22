@@ -151,3 +151,10 @@
 + Make Start menu button focused on play
 + Ensure we can quit from the game
 + Aim towards Steam “Full Controller Support”.
+
+### 20 Trial Packaging Your Game ###
+
++ Creating a stand-alone game
++ Setting the first level that loads
++ Making sure the input mode works
++ Setting-up for “Full Controller Support”.
