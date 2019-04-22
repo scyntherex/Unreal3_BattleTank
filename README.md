@@ -135,3 +135,11 @@
 + Create a dedicated Scene for the Main Menu
 + Use the Level Blueprint to configure UI
 + Add a background image to get started.
+
+### 18 UI Scale Box, Buttons & Mouse ###
+
++ Show mouse cursor in Unreal UI
++ Use a Scale Box for background image scaling
++ Add a Start button
++ Customise fonts inside our UI Widget
++ Set anchors so UI scales to different aspect ratios.
