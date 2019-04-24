@@ -158,3 +158,9 @@
 + Setting the first level that loads
 + Making sure the input mode works
 + Setting-up for “Full Controller Support”.
+
+### 21 Delegating to Components ###
+
++ How delegation can hide information
++ Creating a custom Player Controller class
++ Re-parenting Blueprint classes onto our C++
