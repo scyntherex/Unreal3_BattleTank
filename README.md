@@ -164,3 +164,10 @@
 + How delegation can hide information
 + Creating a custom Player Controller class
 + Re-parenting Blueprint classes onto our C++
+
+### 22 Using virtual and override ###
+
++ A virtual method can be overridden by children
++ The override keyword is a sanity check
++ Use Super:: to include parents’ functionality
++ Use this to add BeginPlay() to PlayerController.
