@@ -178,3 +178,10 @@
 + Assigning an AI Controller to a Pawn
 + Verifying which pawns are possessed
 + Logging possession to the console.
+
+### 24 Get the Player Controller with C++ ###
+
++ Getting the AI to find the player position
++ We won’t implement line-of-sight for simplicity
++ **UGameplayStatics::GetPlayerController()**
++ Or **GetWorld()->GetFirstPlayerController()**
