@@ -171,3 +171,10 @@
 + The override keyword is a sanity check
 + Use Super:: to include parents’ functionality
 + Use this to add BeginPlay() to PlayerController.
+
+### 23 Creating an AI Controller Class ###
+
++ How to create a AIController based C++ class
++ Assigning an AI Controller to a Pawn
++ Verifying which pawns are possessed
++ Logging possession to the console.
