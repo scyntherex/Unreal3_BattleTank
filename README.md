@@ -185,3 +185,9 @@
 + We won’t implement line-of-sight for simplicity
 + **UGameplayStatics::GetPlayerController()**
 + Or **GetWorld()->GetFirstPlayerController()**
+
+### 25 Add Tick() to PlayerController ###
+
++ Revise adding engine methods into new classes
++ Pseudocode our initial aiming logic
++ Learn about Visual Assist for Visual Studio.
