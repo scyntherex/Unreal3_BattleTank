@@ -27,4 +27,5 @@ private:
 	//the crosshair intersects the world
 	void AimTowardsCrosshair();
 
+	virtual bool GetSightRayHitLocation(FVector&) const;
 };

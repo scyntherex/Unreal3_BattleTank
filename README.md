@@ -191,3 +191,10 @@
 + Revise adding engine methods into new classes
 + Pseudocode our initial aiming logic
 + Learn about Visual Assist for Visual Studio.
+
+### 26 Creating an Out Parameter Method ###
+
++ Out parameters smell a little but are used a lot
++ Allows you to return a bool and a FVector
++ Alternative architecture would be a struct or class
++ We’ll do it this way to get you more comfortable with creating your own methods using out parameters.
