@@ -210,3 +210,11 @@
 + How to find the camera look direction
 + What the WorldLocation parameter does
 + WorldDirection returned is a unit vector.
+
+### 29 Using LineTraceSingleByChannel() ###
+
++ We want world position of anything visible
++ GetWorld()->LineTraceSingleByChannel()
++ Use the ECC_Visibility channel for what’s seen
++ Remember HitResult is a rich object
++ Use HitResult.Location for Location member.

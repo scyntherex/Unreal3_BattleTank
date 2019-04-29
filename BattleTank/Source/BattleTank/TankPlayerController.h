@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/World.h"
 #include "Tank.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"
@@ -16,6 +17,7 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 	GENERATED_BODY()
 	
 private:
+
 	ATank* GetControlledTank() const;
 	
 	virtual void Tick(float deltaTime) override;
@@ -30,8 +32,12 @@ private:
 
 	bool GetLookDirection(FVector2D ScreenLocation, FVector & LookDirection) const;
 
+	bool GetLookVectorHitLocation(FVector, FVector&) const;
+
 	UPROPERTY(EditAnywhere)
 	float CrossHairXLocation = 0.5f;
 	UPROPERTY(EditAnywhere)
 	float CrossHairYLocation = 0.33333f;
+	UPROPERTY(EditAnywhere)
+	float Reach = 1000000.f;
 };
