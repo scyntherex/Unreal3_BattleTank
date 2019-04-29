@@ -204,3 +204,9 @@
 + Use FVector2D() to store pixel coordinates
 + This is two floats, pixels can be non-integer
 + Revising UPROPERTY(EditAnywhere) and more.
+
+### 28 Using DeprojectScreenToWorld ###
+
++ How to find the camera look direction
++ What the WorldLocation parameter does
++ WorldDirection returned is a unit vector.
