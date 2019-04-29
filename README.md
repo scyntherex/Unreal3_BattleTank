@@ -198,3 +198,9 @@
 + Allows you to return a bool and a FVector
 + Alternative architecture would be a struct or class
 + We’ll do it this way to get you more comfortable with creating your own methods using out parameters.
+
+### 27 Finding Screen Pixel Coordinates ###
+
++ Use FVector2D() to store pixel coordinates
++ This is two floats, pixels can be non-integer
++ Revising UPROPERTY(EditAnywhere) and more.
