@@ -227,3 +227,10 @@
 + This provides nice abstraction
 + We also hide implementation details
 + … and make the game more fair.
+
+### 31 Create Default Sub Objects in C++ ###
+
++ You can add required components in C++
++ Our Tank Aiming Component is a good candidate
++ We will delegate all AimAt() requests…
++ … regardless of their source (AI or player).
