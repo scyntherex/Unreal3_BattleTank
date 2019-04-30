@@ -218,3 +218,12 @@
 + Use the ECC_Visibility channel for what’s seen
 + Remember HitResult is a rich object
 + Use HitResult.Location for Location member.
+
+### 30 Unify Player & AI Aiming ###
+
++ AI and Player possessed tanks aim the same way
++ Later the tank will delegate aiming
++ But the AI/Player controllers don’t care
++ This provides nice abstraction
++ We also hide implementation details
++ … and make the game more fair.

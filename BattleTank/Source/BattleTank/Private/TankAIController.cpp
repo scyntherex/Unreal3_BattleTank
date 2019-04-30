@@ -17,6 +17,18 @@ void ATankAIController::BeginPlay()
 	}
 }
 
+void ATankAIController::Tick(float deltaTime) {
+	//Super
+	Super::Tick(deltaTime);
+	// Aim towards crosshair
+	if (GetPlayerTank()) {
+		//TODO Move towards player
+		//Aim towards player
+		GetAITank()->AimAt(GetPlayerTank()->GetActorLocation());
+		//TODO Fire at player
+	}
+}
+
 ATank* ATankAIController::GetAITank() const {
 	return Cast<ATank>(GetPawn());
 }
