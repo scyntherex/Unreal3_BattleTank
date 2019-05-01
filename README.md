@@ -234,3 +234,11 @@
 + Our Tank Aiming Component is a good candidate
 + We will delegate all AimAt() requests…
 + … regardless of their source (AI or player).
+
+### 32 BlueprintCallable() ###
+
++ Why StaticMeshComponet is prefixed with U
++ Creating a setter for the barrel reference
++ How to name parameters in setters
++ Using BlueprintCallable() to call C++ from BP
++ Finding the start position of or projectile.
