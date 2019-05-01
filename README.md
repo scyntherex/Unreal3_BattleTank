@@ -242,3 +242,10 @@
 + How to name parameters in setters
 + Using BlueprintCallable() to call C++ from BP
 + Finding the start position of or projectile.
+
+### 33 SuggestProjectileVelocity() ###
+
++ How speed and velocity relate
++ The high and low projectile arc
++ Setting a launch speed on the tank
++ Introducing **SuggestProjectileVelocity()**
