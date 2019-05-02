@@ -254,3 +254,11 @@
 
 + Use **SuggestProjectileVelocity()** in Unreal
 + Work out where a projectile will land.
+
+### 35 Using FRotators in Unreal ###
+
++ A FRotaor is a struct
++ It contains Roll, Pitch and Yaw as floats
++ Convert using .Rotation() method
++ Report aim direction as a rotator
++ Log result to the console in Unreal.
