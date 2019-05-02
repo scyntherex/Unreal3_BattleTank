@@ -48,6 +48,8 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection) {
 	UE_LOG(LogTemp, Warning, TEXT("AimAAsRotator: %s"), *DeltaRotator.ToString());
 
 	//move barrel the correct amount this frame
+
 	//given max elevation speed and frame time
+
 }
 
