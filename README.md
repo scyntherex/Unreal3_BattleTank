@@ -249,3 +249,8 @@
 + The high and low projectile arc
 + Setting a launch speed on the tank
 + Introducing **SuggestProjectileVelocity()**
+
+### 34 Predict Projectile Landing Point ###
+
++ Use **SuggestProjectileVelocity()** in Unreal
++ Work out where a projectile will land.
