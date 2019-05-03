@@ -287,3 +287,11 @@
 + **GetWorld()->GetTimeSeconds()** for logging
 + Documenting your execution flow for clarity
 + Change parameter names for clarity.
+
+### 41 How to Report Bugs ###
+
++ If something’s weird break it down
++ Use logs or the debugger to follow each step
++ SuggestProjectileVelocity() has a bug\*
++ … it MUST have an optional parameter!?
++ Moving to forward declarations.
