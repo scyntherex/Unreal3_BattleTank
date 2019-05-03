@@ -257,8 +257,24 @@
 
 ### 35 Using FRotators in Unreal ###
 
-+ A FRotaor is a struct
++ A FRotator is a struct
 + It contains Roll, Pitch and Yaw as floats
 + Convert using .Rotation() method
 + Report aim direction as a rotator
 + Log result to the console in Unreal.
+
+### 36 Using Forward Declarations ###
+
++ If we #include in a .h file we create a “chain”
++ Any .h file that includes us will in-turn include
++ This can be hard to keep track of
++ To simply use a type, we can “forward declare”
++ Simply put class ClassName; under the includes
++ You’ll still need to #include in the .cpp to use.
+
+### 37 BlueprintSpawnableComponent() ###
+
++ In actor blueprints you have custom components
++ Static mesh components don’t appear by default
++ Use **BlueprintSpawnableComponent** annotation
++ Using **hidecategories = ("CategoryName")**
