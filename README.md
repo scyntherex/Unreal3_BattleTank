@@ -278,3 +278,12 @@
 + Static mesh components don’t appear by default
 + Use **BlueprintSpawnableComponent** annotation
 + Using **hidecategories = ("CategoryName")**
+
+### 38,39?
+
+### 40 Review Our Execution Flow ###
+
++ How to disable or enable tick on various classes
++ **GetWorld()->GetTimeSeconds()** for logging
++ Documenting your execution flow for clarity
++ Change parameter names for clarity.
