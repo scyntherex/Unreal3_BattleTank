@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "TankBarrel.h"
 #include "TankAimingComponent.h"
+#include "TankBarrel.h"
 
 // Sets default values for this component's properties
 UTankAimingComponent::UTankAimingComponent()
@@ -31,8 +31,8 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 		HitLocation,
 		LaunchSpeed,
 		false,
-		0,
-		0.01,
+		0.0,
+		0.0,
 		ESuggestProjVelocityTraceOption::DoNotTrace
 	);
 
@@ -56,6 +56,6 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection) {
 	auto AimAsRotator = AimDirection.Rotation();
 	auto DeltaRotator = AimAsRotator - BarrelRotator;
 
-	Barrel->Elevate(5); //TODO Create const var
+	Barrel->Elevate(DeltaRotator.Pitch);
 }
 

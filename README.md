@@ -295,3 +295,11 @@
 + SuggestProjectileVelocity() has a bug\*
 + … it MUST have an optional parameter!?
 + Moving to forward declarations.
+
+### 42 Using Clamp() to Limit Values ###
+
++ **FMath::Clamp\<type\>(Input, Min, Max);**
++ Very useful for restricting value ranges
++ Clamp our Barrel’s elevation
++ Wire it to the aiming component
++ Test barrel elevation works.
