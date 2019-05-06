@@ -7,7 +7,9 @@
 #include "Kismet/GameplayStatics.h"
 #include "TankAimingComponent.generated.h"
 
-class UTankBarrel; //forward declaration
+class UTankBarrel; //forward declarations
+class UTankTurret;
+
 
 //Holds barrel property and elevate method
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -21,12 +23,13 @@ public:
 
 	void SetBarrelReference(UTankBarrel*);
 
-	//TODO add setTurretRef
+	void SetTurretReference(UTankTurret*);
 
 	void AimAt(FVector, float);
 	
 private:
 	UTankBarrel* Barrel = nullptr;
+	UTankTurret* Turret = nullptr;
 
 	void MoveBarrelTowards(FVector);
 };
