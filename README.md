@@ -316,3 +316,10 @@ a good shot before watching my solution.
 This is the 2nd part of the solution to this section’s longer challenge. We’ll
 be finishing off the turret rotation, giving us complete barrel aiming control
 by the end :-)
+
+### 45 Setting Up Projectiles ###
+
++ Create a public **Fire()** method on our tank
++ Bind input via Blueprint
++ Call this new C++ method to test
++ Create a **Projectile** class, and Blueprint it.
