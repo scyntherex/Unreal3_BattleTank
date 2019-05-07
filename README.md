@@ -323,3 +323,11 @@ by the end :-)
 + Bind input via Blueprint
 + Call this new C++ method to test
 + Create a **Projectile** class, and Blueprint it.
+
+### 46 Upgrading to Unreal 4.12 (No Need. In 4.19) ###
+
++ Multiple versions of the engine take up GB
++ Upgrade Building Escape and Battle Tank
++ Learn more about using source control
++ Using Stash in source control
++ Fixing issue with overlapping collision volumes.
