@@ -331,3 +331,10 @@ by the end :-)
 + Learn more about using source control
 + Using Stash in source control
 + Fixing issue with overlapping collision volumes.
+
+### 47 Working Round Awkward Bugs ###
+
++ About AutoWeld compound objects
++ Working through self-collision issues
++ Disabling gravity on subobjects
++ A reminder Unreal is designed for humanoids.
