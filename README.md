@@ -338,3 +338,10 @@ by the end :-)
 + Working through self-collision issues
 + Disabling gravity on subobjects
 + A reminder Unreal is designed for humanoids.
+
+### 48 Using SpawnActor<>() to Spawn ###
+
++ Using **TSubclassOf\<Type\>**
++ More about forward declarations
++ How to use **GetWorld()->SpawnActor()**
++ How to spawn projectiles from a weapon.
