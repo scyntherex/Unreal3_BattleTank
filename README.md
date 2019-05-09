@@ -351,3 +351,12 @@ by the end :-)
 + Recap use of **CreateDefaultSubobject()**
 + Use a **ProjectileMovementComponent**
 + Get our tank delegating launch to projectile.
+
+### 50 Making AI Tanks Fire ###
+
++ Inline some code for readability
++ Inlining can also be called “defactoring”
++ Less lines of code is often better*
++ * everything else being equal
++ **FPlatformTime::Seconds()** is an accurate timer
++ Make AI tanks fire on every frame.
