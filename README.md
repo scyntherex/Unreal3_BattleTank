@@ -360,3 +360,11 @@ by the end :-)
 + * everything else being equal
 + **FPlatformTime::Seconds()** is an accurate timer
 + Make AI tanks fire on every frame.
+
+### 51 EditAnywhere vs EditDefaultsOnly ###
+
++ **EditAnywhere** allows all instances to be edited
++ For example each AI tank could be different
++ **EditDefaultsOnly** allows “architype” editing
++ In other words, all tanks must be the same
++ Think which you want in future.
