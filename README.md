@@ -345,3 +345,9 @@ by the end :-)
 + More about forward declarations
 + How to use **GetWorld()->SpawnActor()**
 + How to spawn projectiles from a weapon.
+
+### 49 Projectile Movement Components ###
+
++ Recap use of **CreateDefaultSubobject()**
++ Use a **ProjectileMovementComponent**
++ Get our tank delegating launch to projectile.
