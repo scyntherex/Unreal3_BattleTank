@@ -373,3 +373,10 @@ by the end :-)
 
 + Using primitive colliders in Unreal
 + Adding a quit button to our main menu.
+
+### 53 Setup Track Throttles ###
+
++ Base Tank Tracks on **UStaticMeshComponent**
++ Create a **BlueprintCallable** throttle method
++ Bind input to track throttles
++ Discuss what Input Axis Scale does.
