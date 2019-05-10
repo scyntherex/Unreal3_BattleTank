@@ -368,3 +368,8 @@ by the end :-)
 + **EditDefaultsOnly** allows “architype” editing
 + In other words, all tanks must be the same
 + Think which you want in future.
+
+### 52 Adding a Quit Button ###
+
++ Using primitive colliders in Unreal
++ Adding a quit button to our main menu.
