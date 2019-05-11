@@ -388,3 +388,10 @@ by the end :-)
 + Cast to **UPrimitiveComponent** so you can…
 + **AddForceAtLocation();**
 + Estimate sensible defaults for driving forces.
+
+### 55 Physics Materials & Friction ###
+
++ You can assign a physics material under collision
++ Friction is combined between two surfaces
++ The coefficient is the proportion of the contact force that can be exerted sideways before slip.
++ Adjust friction and driving forces to get movement.
