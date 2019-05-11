@@ -380,3 +380,11 @@ by the end :-)
 + Create a **BlueprintCallable** throttle method
 + Bind input to track throttles
 + Discuss what Input Axis Scale does.
+
+### 54 ApplyForceAtLocation() in Action ###
+
++ **GetComponentLocation()** does what it says!
++ Find root: **GetOwner()->GetRootComponent());**
++ Cast to **UPrimitiveComponent** so you can…
++ **AddForceAtLocation();**
++ Estimate sensible defaults for driving forces.
