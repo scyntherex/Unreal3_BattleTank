@@ -395,3 +395,10 @@ by the end :-)
 + Friction is combined between two surfaces
 + The coefficient is the proportion of the contact force that can be exerted sideways before slip.
 + Adjust friction and driving forces to get movement.
+
+### 56 Fly-by-Wire Control System ###
+
++ Fly-by-wire means translating control intention
++ How control intention maps to track throttles
++ Creating a **TankMovementComponent** C++ class
++ Why inherit from **UNavMovementComponent**
