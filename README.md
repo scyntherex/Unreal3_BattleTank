@@ -411,3 +411,12 @@ by the end :-)
 + Make a protected tank variable to store pointer
 + Make this pointer **BlueprintReadOnly** pointer
 + Test that you get a log of +/-1.
+
+### 58 A Better Component Architecture ###
+
++ Actor components require instance references
++ We were passing these references from the tank
++ But we could equally keep them locally
++ Move to composing our actor in Blueprint
++ Create an initialise method for aiming
++ Test it works and hail the simpler code.
