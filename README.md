@@ -402,3 +402,12 @@ by the end :-)
 + How control intention maps to track throttles
 + Creating a **TankMovementComponent** C++ class
 + Why inherit from **UNavMovementComponent**
+
+### 57 Using BlueprintReadOnly ###
+
++ Bind some input for forward and backward
++ Make the method **BlueprintCallable**
++ Make **TankMovementComponent** a default on tank
++ Make a protected tank variable to store pointer
++ Make this pointer **BlueprintReadOnly** pointer
++ Test that you get a log of +/-1.
