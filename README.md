@@ -420,3 +420,9 @@ by the end :-)
 + Move to composing our actor in Blueprint
 + Create an initialise method for aiming
 + Test it works and hail the simpler code.
+
+### 59 Completing Manual Tank Movement ###
+
++ **Add IntendTurnRight()** method
++ Bind firing input to the “A button”
++ Test we can move manually with fly-by-wire.
