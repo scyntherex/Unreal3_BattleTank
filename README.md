@@ -426,3 +426,11 @@ by the end :-)
 + **Add IntendTurnRight()** method
 + Bind firing input to the “A button”
 + Test we can move manually with fly-by-wire.
+
+### 60 Introducing AI Pathfinding ###
+
++ Pathfinding is finding the shortest possible path
++ This requires some (artificial) intelligence
++ All pathfinding must happen on a navmesh
++ Adding Nav Mesh Bounds to the level
++ An overview of how **MoveToActor()** and **RequestDirectMove()** work.
