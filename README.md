@@ -434,3 +434,12 @@ by the end :-)
 + All pathfinding must happen on a navmesh
 + Adding Nav Mesh Bounds to the level
 + An overview of how **MoveToActor()** and **RequestDirectMove()** work.
+
+### 61 Dissecting RequestDirectMove() ###
+
++ We have access to Unreal’s source code
++ Let’s look into the **UNavMovementComponent.h**
++ We’re looking for **RequestDirectMove()**
++ We’ll override it without calling **Super**
++ We can then get the golden **MoveVelocity** vector
++ AI tanks can now use our fly-by-wire controls!

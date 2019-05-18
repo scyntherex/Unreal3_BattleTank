@@ -20,7 +20,8 @@ void ATankAIController::Tick(float deltaTime) {
 
 	// Aim towards crosshair
 	if (PlayerTank) {
-		//TODO Move towards player
+		//Move towards player
+		MoveToActor(PlayerTank, AcceptanceRadius); //TODO check radius in cm.
 
 		//Aim towards player
 		AITank->AimAt(PlayerTank->GetActorLocation());
