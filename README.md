@@ -443,3 +443,12 @@ by the end :-)
 + We’ll override it without calling **Super**
 + We can then get the golden **MoveVelocity** vector
 + AI tanks can now use our fly-by-wire controls!
+
+### 62 DotProduct() Vector Operator ###
+
++ Focusing on controlling forward speed of AI
++ If target in front, move forward full speed
++ If target to side, don’t move forward
++ Vary smoothly in-between
++ This sounds like a cosine function to me!
++ Using **FVector::DotProduct()**
