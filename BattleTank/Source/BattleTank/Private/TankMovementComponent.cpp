@@ -17,7 +17,10 @@ void UTankMovementComponent::RequestDirectMove(const FVector & MoveVelocity, boo
 	auto ForwardThrow = FVector::DotProduct(TankForward, AIForwardIntention);
 	//UE_LOG(LogTemp, Warning, TEXT("%s on route to %s"), *TankName, *MoveVelocityString);
 
+	auto RightThrow = FVector::CrossProduct(TankForward, AIForwardIntention).Z;
+
 	IntendMoveForward(ForwardThrow);
+	IntendTurnRight(RightThrow);
 }
 
 void UTankMovementComponent::IntendMoveForward(float Throw) {

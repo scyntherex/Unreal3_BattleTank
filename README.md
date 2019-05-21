@@ -452,3 +452,11 @@ by the end :-)
 + Vary smoothly in-between
 + This sounds like a cosine function to me!
 + Using **FVector::DotProduct()**
+
+### 63 CrossProduct() Vector Operator ###
+
++ Focusing on controlling turning of AI
++ If target in front or behind* don’t rotate
++ If target to side rotate at full speed
++ This is the behaviour of a sin function
++ Using **FVector::CrossProduct()**
