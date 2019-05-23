@@ -466,3 +466,12 @@ by the end :-)
 + Private, protected or public? Use the safest
 + UPROPERY / UFUNCTION needed? Use “”
 + **#include** and forward declarations required?
+
+### 65 How to Use Blueprint Variables ###
+
++ Remember “what’s the least fun thing about this?”
++ One thing is not knowing if you can fire
++ How to change crosshair colour in blueprint…
++ … according to the aiming component state
++ States: Locked, Aiming, Reloading
++ Referencing actor component from player UI.
