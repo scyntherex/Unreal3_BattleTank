@@ -460,3 +460,9 @@ by the end :-)
 + If target to side rotate at full speed
 + This is the behaviour of a sin function
 + Using **FVector::CrossProduct()**
+
+### 64 Finalising Your Class Code ###
+
++ Private, protected or public? Use the safest
++ UPROPERY / UFUNCTION needed? Use “”
++ **#include** and forward declarations required?
