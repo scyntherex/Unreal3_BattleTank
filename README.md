@@ -491,3 +491,11 @@ by the end :-)
 + Get our code re-compiling as soon as possible
 + Experience hard crash and add pointer protection
 + Possibly get exasperated that we can’t find the suspected null-pointer causing the crash.
+
+### 68 Attaching a Debugger to Unreal ###
+
++ Hard crashes can be difficult to diagnose
++ Attach your IDE’s debugger to the Unreal editor
++ Use it to discover the source (often null pointer)
++ We can also probe using Print in blueprint.
+
