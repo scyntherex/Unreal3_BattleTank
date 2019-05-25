@@ -483,3 +483,11 @@ by the end :-)
 + We must specify the storage type (**uint8**)
 + See Unreal’s coding standards in Resources
 + Remember we use enums to encode meaning.
+
+### 67 Refactoring our Aiming Component ###
+
++ Move away from **CreateDefaultSubObject()**
++ Make aiming a **BlueprintSpawanableComponent**
++ Get our code re-compiling as soon as possible
++ Experience hard crash and add pointer protection
++ Possibly get exasperated that we can’t find the suspected null-pointer causing the crash.
