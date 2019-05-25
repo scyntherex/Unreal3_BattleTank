@@ -475,3 +475,11 @@ by the end :-)
 + … according to the aiming component state
 + States: Locked, Aiming, Reloading
 + Referencing actor component from player UI.
+
+### 66 Using Enum(erations) in UE4 ###
+
++ We met **enum class** around lecture 35
++ In Unreal we must annotate with **UENUM()**
++ We must specify the storage type (**uint8**)
++ See Unreal’s coding standards in Resources
++ Remember we use enums to encode meaning.
