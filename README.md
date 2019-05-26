@@ -499,3 +499,9 @@ by the end :-)
 + Use it to discover the source (often null pointer)
 + We can also probe using Print in blueprint.
 
+### 69 Constructor & Begin Play Timing ###
+
++ Adding log entries to C++ and BP helps you to uncover the timing over events in the engine
++ We’re doing this to discover exactly when Construct and Begin Play gets called in both C++ and Blueprint
++ Note dropped actors are constructed in editor.
+
