@@ -505,3 +505,11 @@ by the end :-)
 + We’re doing this to discover exactly when Construct and Begin Play gets called in both C++ and Blueprint
 + Note dropped actors are constructed in editor.
 
+### 70 Decoupling Your Architecture ###
+
++ We don’t have a Aiming Component reference
++ It is hard to find a sensible time to set it
++ Also we don’t need the reference on the tank
++ We can Get Components by Class in Blueprint
++ Mock-up our C++ code in Blueprint.
+
