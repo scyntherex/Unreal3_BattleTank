@@ -513,3 +513,22 @@ by the end :-)
 + We can Get Components by Class in Blueprint
 + Mock-up our C++ code in Blueprint.
 
+### 71 BlueprintImplementableEvent ###
+
++ We want to expose a C++ function to Blueprint
++ We also want to pass a parameter (aiming ref.)
++ Multicast delegates only work like this for actors
++ We’re using a component so we use…
++ **UFUNCTION(BlueprintImplementableEvent)**
++ You don’t need to define the function!
+
+### 72 Using the ensure Assertion ###
+
+### 73 Dependency Mapping ###
+
++ Code architecture can be hard to see
++ Dependency mapping shakes-out the structure
++ Go through your .cpp files and look at includes
++ Map these as dependencies on a diagram
++ If it looks like spaghetti, you need to refactor!
+
