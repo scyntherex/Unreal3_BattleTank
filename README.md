@@ -532,3 +532,17 @@ by the end :-)
 + Map these as dependencies on a diagram
 + If it looks like spaghetti, you need to refactor!
 
+### 74 Talking Head - Real World Skills ###
+
++ Congratulations on getting this far
++ We’re not teaching sterile solutions here
++ We’re showing you how to recognise real issues
++ … and how to tackle them sensibly
+
+### 75 Starting From Green ###
+
++ You should probably only refactor working code
++ Red means your code’s not working
++ Green means it is, even if the code is messy
++ We commit at green, then start refactoring.
++ It’s not the easy path, but it is the valuable one.
