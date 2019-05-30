@@ -559,3 +559,12 @@ by the end :-)
 + Removing our final dependencies
 + If you override **BeginPlay()** in an actor you should call **Super::BeginPlay()**
 + If you don’t override it at all, there’s no need to, your Blueprint Begin Play will still run.
+
+### 78 Adding TickComponent() Back ###
+
++ Actor Components use **TickComponent** not **Tick**
++ You can find the signature in docs online
++ Or by copying from the engine code
++ Remember to use **override** at to check
++ Remember to set the boolean in the constructor
++ **GetWorld()->GetTimeSeconds()** alternative.
