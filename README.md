@@ -546,3 +546,16 @@ by the end :-)
 + Green means it is, even if the code is messy
 + We commit at green, then start refactoring.
 + It’s not the easy path, but it is the valuable one.
+
+### 76 Aiming Without the Tank ###
+
++ There is no need to cast the Pawn to a Tank
++ Doing so creates a dependency we don’t want
++ Remember a Tank is a Pawn
++ We simplify our architecture here.
+
+### 77 Finishing our Refactoring ###
+
++ Removing our final dependencies
++ If you override **BeginPlay()** in an actor you should call **Super::BeginPlay()**
++ If you don’t override it at all, there’s no need to, your Blueprint Begin Play will still run.
