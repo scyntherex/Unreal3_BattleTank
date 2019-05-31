@@ -568,3 +568,10 @@ by the end :-)
 + Remember to use **override** at to check
 + Remember to set the boolean in the constructor
 + **GetWorld()->GetTimeSeconds()** alternative.
+
+### 79 Are Two Floats Equal? ###
+
++ FVectors are just structs containing float
++ You must “define equal” when comparing floats
++ The **FVector::Equals()** method allows this
++ Specify a tolerance, see docs in resources.
