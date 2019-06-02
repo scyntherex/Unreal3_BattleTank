@@ -575,3 +575,11 @@ by the end :-)
 + You must “define equal” when comparing floats
 + The **FVector::Equals()** method allows this
 + Specify a tolerance, see docs in resources.
+
+### 80 Programmatic Sideways Friction ###
+
++ We can apply a sideways correction force
++ Remember Force = Mass * Acceleration
++ … and Acceleration = Speed / Time
++ So we calculate the force using the slippage speed,the frame time, and the tank mass
++ A way to calculate is **FVector::DotProduct()**
