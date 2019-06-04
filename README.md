@@ -583,3 +583,11 @@ by the end :-)
 + … and Acceleration = Speed / Time
 + So we calculate the force using the slippage speed,the frame time, and the tank mass
 + A way to calculate is **FVector::DotProduct()**
+
+### 81 OnComponentHit Event in 4.12 ###
+
++ We could use OnComponentHit in Blueprint
++ But we’re grown-ups so we’re going to use C++
++ Signature of **OnHit(...)** has changed in 4.12
++ Remember you need to make it a **UFUNCTION**
++ Details on next slide.
