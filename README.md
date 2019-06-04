@@ -591,3 +591,9 @@ by the end :-)
 + Signature of **OnHit(...)** has changed in 4.12
 + Remember you need to make it a **UFUNCTION**
 + Details on next slide.
+
+### 82 Avoiding Boolean Flags ###
+
++ Boolean flags usually make answers old
++ Try and think of a way of avoiding them
++ Revise the use of **FMath::Clamp()**
