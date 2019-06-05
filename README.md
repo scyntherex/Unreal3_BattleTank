@@ -597,3 +597,11 @@ by the end :-)
 + Boolean flags usually make answers old
 + Try and think of a way of avoiding them
 + Revise the use of **FMath::Clamp()**
+
+### 83 Improving Tank Aiming ###
+
++ Use a literal glass ceiling to help with testing!
++ Sometimes the barrel takes the long route
++ A simple **if()** statement can help here
++ Find and fix another bug in the code
++ You can use **%i** formatter to log booleans.
