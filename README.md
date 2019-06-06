@@ -605,3 +605,10 @@ by the end :-)
 + A simple **if()** statement can help here
 + Find and fix another bug in the code
 + You can use **%i** formatter to log booleans.
+
+### 84 Tweaking Tank AI ###
+
++ Expose the Acceptance Radius to blueprint
++ Tweak that value as **EditAnywhere**
++ Change back to **EditDefaultsOnly** once found
++ Prevent AI tanks firing until aiming is locked.

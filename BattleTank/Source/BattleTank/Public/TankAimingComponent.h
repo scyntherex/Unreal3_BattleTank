@@ -34,6 +34,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Fire();
 
+	EFiringStatus GetFiringState() const;
+
 protected:
 	UPROPERTY(BlueprintReadOnly, Category = "State")
 	EFiringStatus FiringState = EFiringStatus::Reloading;
