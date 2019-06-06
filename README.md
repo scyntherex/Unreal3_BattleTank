@@ -612,3 +612,10 @@ by the end :-)
 + Tweak that value as **EditAnywhere**
 + Change back to **EditDefaultsOnly** once found
 + Prevent AI tanks firing until aiming is locked.
+
+### 85 Making an Ammo Display ###
+
++ Add a 4th enum state for out of ammo
++ Work around bug of blueprint select nodes not updating when we add new enum values in C++
++ Add a display for rounds remaining
++ Bind the UI to a **GetRounds()** method.
