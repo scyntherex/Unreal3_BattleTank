@@ -626,3 +626,12 @@ by the end :-)
 + It turns-out we can re-use movement and aiming
 + This is the benefit of re-usable components
 + We’ll create a self-aiming mortar tower.
+
+### 87 Using the Reference Viewer ###
+
++ Currently we .gitignore the Starter Content
++ Therefore we can’t track changes
++ We want a consistent starting point for particles
++ So we’re going to delete Starter Content
++ Lots depends on it so we use a special tool
++ That special tool is the reference viewer.
