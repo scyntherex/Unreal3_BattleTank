@@ -619,3 +619,10 @@ by the end :-)
 + Work around bug of blueprint select nodes not updating when we add new enum values in C++
 + Add a display for rounds remaining
 + Bind the UI to a **GetRounds()** method.
+
+### 86 Making an AutoMortar ###
+
++ The tank components were built for the tank
++ It turns-out we can re-use movement and aiming
++ This is the benefit of re-usable components
++ We’ll create a self-aiming mortar tower.
