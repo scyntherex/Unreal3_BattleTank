@@ -635,3 +635,11 @@ by the end :-)
 + So we’re going to delete Starter Content
 + Lots depends on it so we use a special tool
 + That special tool is the reference viewer.
+
+### 88 Preparing for Particles ###
+
++ We will compose our projectile in C++
++ Use **SetRootComponent**()
++ Use **AttachTo(RootComponent)**
++ You can set default properties in C++
++ Use **UPROPERTY(VisibleAnywhere)**
