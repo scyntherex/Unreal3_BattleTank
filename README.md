@@ -643,3 +643,11 @@ by the end :-)
 + Use **AttachTo(RootComponent)**
 + You can set default properties in C++
 + Use **UPROPERTY(VisibleAnywhere)**
+
+### 89 Introducing Particle Systems ###
+
++ Setup a Starter Content project
++ Use it to migrate assets to Battle Tank
++ Explore particle systems
++ Use world space for smoke trails
++ Create and share your smoke trail.
