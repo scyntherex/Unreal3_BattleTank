@@ -651,3 +651,11 @@ by the end :-)
 + Explore particle systems
 + Use world space for smoke trails
 + Create and share your smoke trail.
+
+### 90 Particle Bounding Boxes ###
+
++ Our smoke disappeared when viewed from side
++ This is due to the fixed particle bounding boxes
++ We can fix it by making the boxes dynamic
++ BUT we need to remove GPU rendered particles
++ … and test the performance hit is acceptable.
