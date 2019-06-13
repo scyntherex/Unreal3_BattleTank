@@ -659,3 +659,12 @@ by the end :-)
 + We can fix it by making the boxes dynamic
 + BUT we need to remove GPU rendered particles
 + … and test the performance hit is acceptable.
+
+### 91 Using FAttachmentTransformRules ###
+
++ Use Message Log to see warnings
++ **AttachTo()** has become **AttachToComponent()**
++ Now must provide **FAttachmentTransformRules**
++ We’ll use **KeepRelativeTransform** for now
++ Write code to de-active launch blast and
++ Activate impact blast on impact.
