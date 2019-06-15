@@ -8,6 +8,8 @@
 #include "Engine/World.h"
 #include "Projectile.generated.h"
 
+class URadialForceComponent;
+
 UCLASS()
 class BATTLETANK_API AProjectile : public AActor
 {
@@ -41,4 +43,7 @@ private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Firing")
 	UParticleSystemComponent* ImpactBlast = nullptr;
+
+	UPROPERTY(VisibleAnywhere, Category = "Firing")
+	URadialForceComponent* ExplosionForce = nullptr;
 };
