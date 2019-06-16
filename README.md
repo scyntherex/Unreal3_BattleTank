@@ -686,3 +686,11 @@ by the end :-)
 + Tidy up after ourselves
 + Discuss projectile schemes
 + Destroy our projectiles with a timer.
+
+### 94 Using TakeDamage() on Actors ###
+
++ Unreal has an actor damage system
++ We’ll apply radial damage from the projectile
++ Then the **AActor::TakeDamage()** method will be called on the tank (and all other actors in radius)
++ We’ll then finish our damage system off
++ Solve the **int** or **float** damage question.
