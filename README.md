@@ -677,3 +677,12 @@ by the end :-)
 + You’ll get really weird effects and…
 + Unreal may cache the issue...
 + So, always **AttachToComponent()** :-)
+
+### 93 Using GetTimerManager() ###
+
++ Currently we don’t destroy our projectiles
++ This will cause slow-down and memory leakage
++ You won’t pass console testing with a leak
++ Tidy up after ourselves
++ Discuss projectile schemes
++ Destroy our projectiles with a timer.
