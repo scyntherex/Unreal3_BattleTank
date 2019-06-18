@@ -694,3 +694,9 @@ by the end :-)
 + Then the **AActor::TakeDamage()** method will be called on the tank (and all other actors in radius)
 + We’ll then finish our damage system off
 + Solve the **int** or **float** damage question.
+
+### 95 BlueprintPure & Health Bars ###
+
++ Add a UI Widget component to our tank
++ Make a very simple health progress bar
++ Wire the bar to the tank.

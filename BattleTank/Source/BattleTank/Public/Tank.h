@@ -14,9 +14,6 @@ class BATTLETANK_API ATank : public APawn
 
 public:
 
-	// Sets default values for this pawn's properties
-	ATank();
-
 	virtual float TakeDamage
 	(
 		float DamageAmount,
@@ -25,7 +22,14 @@ public:
 		AActor * DamageCauser
 	) override;
 
+	//Returns current health as a percentage of satrting helath, between 0 and 1
+	UFUNCTION(BlueprintPure, Category = "Health")
+	float GetHealthPercent() const;
+
 private:
+	// Sets default values for this pawn's properties
+	ATank();
+
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	int32 StartingHealth = 100;
 
