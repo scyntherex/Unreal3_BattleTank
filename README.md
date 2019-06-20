@@ -700,3 +700,5 @@ by the end :-)
 + Add a UI Widget component to our tank
 + Make a very simple health progress bar
 + Wire the bar to the tank.
+
+### 96 The Observer Pattern ###
