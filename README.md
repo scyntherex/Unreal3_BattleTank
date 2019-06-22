@@ -702,3 +702,12 @@ by the end :-)
 + Wire the bar to the tank.
 
 ### 96 The Observer Pattern ###
+
+### 97 Finishing Off - Part 1 ###
+
++ We’re nearing the end of the section
++ You have several challenges over to try
++ These include various fixes and improvements...
++ Use **StartSpectatingOnly()** in Player Controller
++ **DetachFromControllerPendingDestroy()** in AI
++ Fixing a bug with our starting health
