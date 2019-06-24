@@ -711,3 +711,9 @@ by the end :-)
 + Use **StartSpectatingOnly()** in Player Controller
 + **DetachFromControllerPendingDestroy()** in AI
 + Fixing a bug with our starting health
+
+### 98 Finishing Off - Part 2 ###
+
++ You can use the noise function on landscapes
++ Gameobjects are automatically destroyed when they travel a long way from the play area
++ Reviewing Unreal’s coding standards.
