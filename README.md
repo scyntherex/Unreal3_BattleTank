@@ -717,3 +717,21 @@ by the end :-)
 + You can use the noise function on landscapes
 + Gameobjects are automatically destroyed when they travel a long way from the play area
 + Reviewing Unreal’s coding standards.
+
+### 99 Section 4 Wrap-Up ###################################################
+
+In this section we covered...
++ Basic terrain landscaping
++ Using and modifying the AI pathfinding system
++ A deep-dive into control systems
++ User Interface for the first time
++ A whole tonne of C++ and architecture.
+
+### 100 Bonus - Switching Cameras ###
+
++ Our player controller line traces to aim
++ This can hit the UI in some circumstances
++ Change our line trace channel to ECC::Camera
++ Add a 1st person camera
++ Use the Toggle Visibility Blueprint node
++ Bind input and enjoy simple camera swapping.
