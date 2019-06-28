@@ -735,3 +735,17 @@ In this section we covered...
 + Add a 1st person camera
 + Use the Toggle Visibility Blueprint node
 + Bind input and enjoy simple camera swapping.
+
+### 100b Fixing The Tank Suspension ###
+
++ Why the suspension is broken.
++ How we will fix it with a suspension.
++ Overview of how suspension works.
+
+### 101 Upgrade to 4.19(Already at 4.19) And Bug Fixes ###
+
+**In this video (objectives)…**
+
+1. Update the project.
+2. Fix any build errors.
+3. Fix any bad log messages.
